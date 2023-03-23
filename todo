@@ -1,0 +1,97 @@
+☐ Intalando Delphi @started(23-03-22 21:06)
+configurar o delphi para abrir como adm
+vai na pasta bin clica em propriedades e compatibilidade 
+
+☐ copiar a pasta lib2 para C:\Program Files (x86)\Borland\Delphi6\
+
+☐ Copiar para C:\Program Files (x86)\Borland\Delphi6\lib2\rlink32.dll c:\Program Files (x86)\Borland\Delphi6\Bin
+
+> primeira vez que abre o delphi pode dar um erro de compatibilidade, marca a opcao >Executar o programa sem obter ajuda e marcar a opção <>
+ (Não voltar a mostrar esta mensagem)
+
+
+1 Quickreport (remover o antigo e instalar o 5)
+
+Component >> Instal Package >> Remove o quickreport
+> seleciona e desmarca no delphi para remover
+Deleta >> c:\Windows\SysWOW64\qrpt60.bpl
+Deleta >> c:\Program Files (x86)\Borland\Delphi6\Bin\dclqrt60.bpl 
+(vai na pasta e localiza para deletar)
+Instala o executavel do quickReport5
+ C:\Program Files (x86)\Borland\Delphi6\lib2\quickreport502\QR502PD6.exe
+
+☐ 2 dbaltgrid - C:\Program Files (x86)\Borland\Delphi6\lib2\dagrid19d\setup_d.exe
+
+☐ 3 teechart 
+Remove o package tee do delphi Component >> Install Package:
+Deleta >> c:\Windows\SysWOW64\tee*.bpl (localiza a pasta e faz a busca pelo tee*.bpl - precisa fechar o delphi)
+ abrir o dephi na menensagem de erro ao tentar recarregar os *dclqrt60.bpl que foram deletados 
+(dizer Não para não recarregar no delphi da proxima vez)
+
+>depois de abrir o delphi vai em file open:
+Open C:\Program Files (x86)\Borland\Delphi6\lib2\TeeChart7\Sources\Tee7D6.bpg >> "Project -> Build All packages" to recompile all packages.
+Copia o tee7d6.bpl para C:\Program Files (x86)\Borland\Delphi6\Projects\Bpl
+
+☐ 4 dicomvcl C:\Program Files (x86)\Borland\Delphi6\lib2\dicomvcl
+senha dicomvclregisteredsource
+instal delphi
+copie o arquivo DCM_GIFImage.dcu para C:\Program Files (x86)\Borland\Delphi6\dicom
+
+☐ 5 Instlalar diversos componentes Component >> Install Components
+clica em browser cola o caminho e escolhe o arquivo .pas:
+
+C:\Program Files (x86)\Borland\Delphi6\lib2\msnpopup\source
+C:\Program Files (x86)\Borland\Delphi6\lib2\tcamera (C:\Program Files (x86)\Borland\Delphi6\lib2\tcamera\camera.pas)
+  >> instalar somente o camera **
+C:\Program Files (x86)\Borland\Delphi6\lib2\cifradores
+  >> selecionar todos
+C:\Program Files (x86)\Borland\Delphi6\lib2\JoyStick
+C:\Program Files (x86)\Borland\Delphi6\lib2\VDOPrint\src
+ > todos .pas
+C:\Program Files (x86)\Borland\Delphi6\lib2\pngimage  
+ > seleciona os .pas (a pasta obj não)
+C:\Program Files (x86)\Borland\Delphi6\lib2\
+>> selecionar  >> "Dialer.pas" "bzip2.pas" "DelphiTwainUtils.pas" "Twain.pas" "DelphiTwain.pas" "CheckDBGrid" "QRBarcode.pas"
+
+☐ 6 C:\Program Files (x86)\Borland\Delphi6\lib2\comport411f\source 
+pelo explorer (abre compila e instala)
+>instalar os CPortLib6 e DsgnCPort6
+
+
+☐ Instal activex Acro Component >> "Import Activex Control" Adobe Acrobat
+
+quando for compilar e pipocar abra o delphi => tools envirominent options => library => library path => adiciona o caminho 
+FEITO E FECHA E ABRE
+C:\Program Files (x86)\Borland\Delphi6\lib2\comport411f\source 
+C:\Program Files (x86)\Borland\Delphi6\lib2\pdf
+C:\Program Files (x86)\Borland\Delphi6\lib2\
+C:\Program Files (x86)\Borland\Delphi6\lib2\Twain
+
+- tools envirominent options => Designer (options) > show component captions
+
+erro idpwacth
+---
+open C:\Program Files (x86)\Borland\Delphi6\lib2\Indy >> puxar o indy (compilar e install)
+fechar
+depois open- dclindy (compilar e install)
+C:\Program Files (x86)\Borland\Delphi6\lib2\Indy
+
+------------
+Colocar em enviroment:
+C:\Program Files (x86)\DICOMVCL\source
+
+AcroPDFLib_TLB-- instalar o reader
+
+sapi
+tool enviroment
+C:\Program Files (x86)\Borland\Delphi6\lib2\pngimage
+
+===============
+depois que rodar precisa exportar  o registro e rodar no dia:
+HKEY_CURRENT_USER\Software\Borland
+salvar com a data do dia e precisa excutar
+
+
+---------
+ERRO DE COMPILACAO DELPHI MOSTRANDO EXCEPTIONS
+TOOLS > DEBUGGER OPTIONS  (DESMARCAR O CHECKBOX - STOP ON EXCEPTIONS ABA LANGUAGEM EXCEPTIONS)
