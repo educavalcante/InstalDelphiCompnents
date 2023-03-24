@@ -1,4 +1,16 @@
-1- trocar cuurent_time por local_time  (tem na 2.59)
+https://www.youtube.com/watch?v=TDXzCcLsFmE&t=1244s
+migrar 2.5 para 3.0
+
+
+
+
+https://www.youtube.com/watch?v=KkBYovB1Ci8
+1- trocar cuurent_time por local_time  (tem na 2.59)  ***************
 current_timestamp (da problema tem que ser currente_time) ou mudar pra localtimestamp
 
-local (palavra reservada)  palavra reservada  local trocar por *LOCAL*
+2 - local (palavra reservada)  palavra reservada  local trocar por *LOCAL*
+
+3 - firebird.conf (do firebird 4.0 colocar o compatibilidade do que usava)
+DataTypeCompatibility = 2.5
+se usar esse parametro de compatibilidade nao vai poder usar o campo boolean o integer grande perdendo 
+as mudanças, mas evitando erros
