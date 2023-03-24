@@ -1,0 +1,4 @@
+1- trocar cuurent_time por local_time  (tem na 2.59)
+current_timestamp (da problema tem que ser currente_time) ou mudar pra localtimestamp
+
+local (palavra reservada)  palavra reservada  local trocar por *LOCAL*

@@ -1,25 +1,23 @@
 ☐ Intalando Delphi @started(23-03-22 21:06)
-configurar o delphi para abrir como adm
-vai na pasta bin clica em propriedades e compatibilidade 
+✔ configurar o delphi para abrir como adm @done(23-03-22 21:20)
+✔ vai na pasta bin clica em propriedades e compatibilidade @done(23-03-22 21:20)
 
-☐ copiar a pasta lib2 para C:\Program Files (x86)\Borland\Delphi6\
-https://drive.google.com/file/d/1nBFdq0qwrRAQyub83iL5ZXiIp0Aeuouq/view?usp=share_link
+✔ copiar a pasta: lib2 para C:\Program Files (x86)\Borland\Delphi6\ @done(23-03-22 21:39)
+✔ https://drive.google.com/file/d/1nBFdq0qwrRAQyub83iL5ZXiIp0Aeuouq/view?usp=share_link @done(23-03-22 21:20)
 
-☐ Copiar para C:\Program Files (x86)\Borland\Delphi6\lib2\rlink32.dll c:\Program Files (x86)\Borland\Delphi6\Bin
+✔ Copiar para C:\Program Files (x86)\Borland\Delphi6\lib2\rlink32.dll c:\Program Files (x86)\Borland\Delphi6\Bin @done(23-03-22 21:39)
 
-> primeira vez que abre o delphi pode dar um erro de compatibilidade, marca a opcao >Executar o programa sem obter ajuda e marcar a opção <>
- (Não voltar a mostrar esta mensagem)
+✔ > primeira vez que abre o delphi pode dar um erro de compatibilidade, marca a opcao >Executar o programa sem obter ajuda e marcar a opção <> @done(23-03-22 21:39)
+ ✔ (Não voltar a mostrar esta mensagem) @done(23-03-22 21:39)
 
-
-1 Quickreport (remover o antigo e instalar o 5)
-
-Component >> Instal Package >> Remove o quickreport
-> seleciona e desmarca no delphi para remover
-Deleta >> c:\Windows\SysWOW64\qrpt60.bpl
-Deleta >> c:\Program Files (x86)\Borland\Delphi6\Bin\dclqrt60.bpl 
-(vai na pasta e localiza para deletar)
-Instala o executavel do quickReport5
- C:\Program Files (x86)\Borland\Delphi6\lib2\quickreport502\QR502PD6.exe
+✔ 1 Quickreport (remover o antigo e instalar o 5) @done(23-03-22 21:45)
+- Component >> Instal Package >> Remove o quickreport
+✔ > seleciona e desmarca no delphi para remover @done(23-03-22 21:45)
+✔ Deleta >> c:\Windows\SysWOW64\qrpt60.bpl @done(23-03-22 21:45)
+✔ Deleta >> c:\Program Files (x86)\Borland\Delphi6\Bin\dclqrt60.bpl @done(23-03-22 21:45)
+✔ (vai na pasta e localiza para deletar) @done(23-03-22 21:45)
+✔ Instala o executavel do quickReport5 @done(23-03-22 21:45)
+ ✔ C:\Program Files (x86)\Borland\Delphi6\lib2\quickreport502\QR502PD6.exe @done(23-03-22 21:45)
 
 ☐ 2 dbaltgrid - C:\Program Files (x86)\Borland\Delphi6\lib2\dagrid19d\setup_d.exe
 
