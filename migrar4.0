@@ -14,3 +14,7 @@ current_timestamp (da problema tem que ser currente_time) ou mudar pra localtime
 DataTypeCompatibility = 2.5
 se usar esse parametro de compatibilidade nao vai poder usar o campo boolean o integer grande perdendo 
 as mudanças, mas evitando erros
+
+
+comando gbk
+gbak -c -v -rep -fix_fss_m ISO8859_1 -fix_fss_d ISO8859_1 -user sysdba -password ajuda c:\sgbd\hcc\faturagdb.gbk localhost:c:\sgbd\hcc\faturagdb
